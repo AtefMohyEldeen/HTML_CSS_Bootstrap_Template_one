@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dessert</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/dessert.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid" style="background-color: rgb(0 0 0 / 57%);">
+      <a class="navbar-brand href="#">
+        <img src="image/logo.jpg" alt="">
+      </a>
+      <a class="navbar-brand dessert text-light " href="#">Dessert</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="main">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Types
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Macron</a></li>
+              <li><a class="dropdown-item" href="#">PanCake action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Chocolate</a></li>
+              <li><a class="dropdown-item" href="#">Vanilla</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Blog</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width: 180px;">
+          <button class="btn btn-outline-primary primary me-2" type="submit">Search</button>
+          <button class="btn btn-outline-primary primary" type="login">login</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--start carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/carsouel.jpg" class="d-block w-100" alt="..." style="height: 80vh;">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Dessert</h3>
+          <button type="button" class="btn btn-outline-primary text-light">Search</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/carsoule1.jpg" class="d-block w-100" alt="..." style="height: 80vh;">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Chocolate</h3>
+          <button type="button" class="btn btn-danger">Search</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/corsoule2.jpg" class="d-block w-100" alt="..." style="height: 80vh;">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Vanilla</h3>
+          <button type="button" class="btn btn-success">Search</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/carsoule3.jpg" class="d-block w-100" alt="..." style="height: 80vh;">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>PanCake</h3>
+          <button type="button" class="btn btn-warning">Warning</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--end carousel -->
+  <!-- start section  -->
+  <section>
+    <div class="container-fluid sec1 p-5">
+      <h3>Welcome to Our website</h3>
+      <span>Our Dessert Restaurant is unique , It is the most important Restaurantin in our country</span>
+      <br>
+      <button class="btn bg-light text-dark mt-3" title="Copy">Learn More</button>
+    </div>
+    <div class="container-fluid bg-light p-1">
+      <hr>
+    </div>
+    <div class="container-fluid text-light p-4 mb-3 title" style="background-color: rgba(8, 37, 100, 0.8);">
+      <h2 class="text-center">Dessert Dishes</h2>
+    </div>
+  </section>
+  <!--start sec1  -->
+  <div class="accordion accordion-flush" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Vanilla Latte Cake
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin 
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          All Taypes Of Chocolate
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin 
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Red-Valaed Cake
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin 
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--end sec1  -->
+  <!-- start sec2  -->
+  <div class="container-fluid bg-light p-1">
+    <hr>
+  </div>
+  <div class="container-fluid text-light p-4 mb-3 title" style="background-color: rgba(8, 37, 100, 0.8);">
+    <h2 class="text-center">Our Services</h2>
+  </div>
+  <div class="container-fluid bg-light p-5">
+    <h3 class="text-dark">
+      Delicious Dessert
+    </h3>
+    <span class="text-warning">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+    </span>
+    <br>
+    <button class="btn bg-danger text-light my-3" title="Copy">Learn More</button>
+    <div class="sec-images ">
+      <a href="#" >
+        <img src="image/sec21.jpg" alt="sweet" class="img-sec2">
+      </a>
+      <a href="#" >
+        <img src="image/sec22.jpg" alt="sweet" class="img-sec2">
+      </a>
+      <a href="#" >
+        <img src="image/sec23.jpg" alt="sweet" class="img-sec2">
+      </a>
+    </div>
+    </div>
+    <div class="container-fluid text-light p-4 mb-3 title" style="background-color: rgba(8, 37, 100, 0.8);">
+      <h2 class="text-center">Our Services</h2>
+    </div>
+    <div class="container-fluid bg-light p-5">
+      <h3 class="text-dark">
+        Comfortable Place
+      </h3>
+      <span class="text-warning">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </span>
+      <br>
+      <button class="btn bg-danger text-light my-3" title="Copy">Learn More</button>
+      <div class="sec-images ">
+        <a href="#" >
+          <img src="image/sec24.jpg" alt="sweet" class="img-sec2">
+        </a>
+        <a href="#" >
+          <img src="image/sec25.jpg" alt="sweet" class="img-sec2">
+        </a>
+        <a href="#" >
+          <img src="image/sec26.jpg" alt="sweet" class="img-sec2">
+        </a>
+      </div>
+      </div>
+    <div class="container-fluid text-light p-4 mb-3 title" style="background-color: rgba(8, 37, 100, 0.8);">
+      <h2 class="text-center">Our Services</h2>
+    </div>
+    <div class="container-fluid bg-light p-5">
+      <h3 class="text-dark">
+        Exellent Service
+      </h3>
+      <span class="text-warning">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </span>
+      <br>
+      <button class="btn bg-danger text-light my-3" title="Copy">Learn More</button>
+      <div class="sec-images ">
+        <a href="#" >
+          <img src="image/sec27.jpg" alt="sweet" class="img-sec2">
+        </a>
+        <a href="#" >
+          <img src="image/sec28.jpg" alt="sweet" class="img-sec2">
+        </a>
+        <a href="#" >
+          <img src="image/sec29.jpg" alt="sweet" class="img-sec2">
+        </a>
+      </div>
+      </div>
+      <div class="container-fluid bg-light p-1">
+        <hr>
+      </div>
+  <!-- end sec2  -->
+  <!-- start sec3  -->
+    <div class="fixed-image"></div>
+    <div class="container-fluid text-light p-4 mb-3 title" style="background-color: rgba(8, 37, 100, 0.8);">
+      <h2 class="text-center">Dishes</h2>
+    </div>
+    <div class="container-fluid backg-sec3 pb-5 d-flex flex-wrap justify-content-around align-item-center">
+      <div class="card bg-dark mt-5 d-flex text-light text-center" style="width: 21rem;height: 400px;">
+        <img src="image/card1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Italian Dessert</h5>
+          <p class="card-text">It is very good anad afordable</p>
+          <a href="#" class="btn btn-outline-primary">Order Now</a>
+        </div>
+      </div>
+      <div class="card bg-dark mt-5 d-flex text-light text-center" style="width: 21rem;height: 400px;">
+        <img src="image/card2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Italian Dessert</h5>
+          <p class="card-text">It is very good anad afordable</p>
+          <a href="#" class="btn btn-outline-primary">Order Now</a>
+        </div>
+      </div>
+      <div class="card bg-dark mt-5 d-flex text-light text-center" style="width: 21rem;height: 400px;">
+        <img src="image/card3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Italian Dessert</h5>
+          <p class="card-text">It is very good anad afordable</p>
+          <a href="#" class="btn btn-outline-primary">Order Now</a>
+        </div>
+      </div>
+      <div class="card bg-dark mt-5 d-flex text-light text-center" style="width: 21rem;height: 400px;">
+        <img src="image/card4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Italian Dessert</h5>
+          <p class="card-text">It is very good anad afordable</p>
+          <a href="#" class="btn btn-outline-primary">Order Now</a>
+        </div>
+      </div>
+      <div class="card bg-dark mt-5 d-flex text-light text-center" style="width: 21rem;height: 400px;">
+        <img src="image/card5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Italian Dessert</h5>
+          <p class="card-text">It is very good anad afordable</p>
+          <a href="#" class="btn btn-outline-primary">Order Now</a>
+        </div>
+      </div>
+      <div class="card bg-dark mt-5 d-flex text-light text-center" style="width: 21rem;height: 400px;">
+        <img src="image/card6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Italian Dessert</h5>
+          <p class="card-text">It is very good anad afordable</p>
+          <a href="#" class="btn btn-outline-primary">Order Now</a>
+        </div>
+      </div>
+      <div class="card bg-dark mt-5 d-flex text-light text-center" style="width: 21rem;height: 400px;">
+        <img src="image/card7.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Italian Dessert</h5>
+          <p class="card-text">It is very good anad afordable</p>
+          <a href="#" class="btn btn-outline-primary">Order Now</a>
+        </div>
+      </div>
+      <div class="card bg-dark mt-5 d-flex text-light text-center" style="width: 21rem;height: 400px;">
+        <img src="image/card8.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Italian Dessert</h5>
+          <p class="card-text">It is very good anad afordable</p>
+          <a href="#" class="btn btn-outline-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="team " style="background-color: rgba(224, 224, 224, 0.8);">
+      <div class="fixed-image"></div>
+      <div class="container-fluid bg-light p-1">
+        <hr>
+      </div>
+      <div class="container-fluid text-dark p-2 mb-2 title" >
+        <h2 class="text-center pt-4">Our Team</h2>
+      </div>
+      <div class="container  pb-5 d-flex flex-wrap justify-content-around align-item-center">
+        <div class="card bg-dark mt-5 d-flex text-light text-center" style="width: 18rem;height: 370px;">
+          <img src="image/card1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title pt-3">Eng/Hamada Omran</h5>
+          </div>
+        </div>
+        <div class="card bg-dark mt-5 d-flex text-light text-center" style="width: 18rem;height: 370px;">
+          <img src="image/team2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title pt-3">Eng/Shereen Elshahhat</h5>
+          </div>
+        </div>
+        <div class="card bg-dark mt-5 d-flex text-light text-center" style="width: 18rem;height: 370px;">
+          <img src="image/team3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title pt-3">Eng/Ahmed Hassan</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- end sec3  -->
+  <!-- start join  -->
+    <hr>
+    <div class="container-fluid text-dark p-2 mb-2 title" >
+      <h2 class="text-center pt-4">join Us</h2>
+    </div>
+    <div class="container card-shad pb-5 text-center  d-flex flex-wrap justify-content-around align-items-center">
+      <div class="card text-light carddd mt-3 " style="width: 18rem; height: 150px;">
+        <div class="card-body">
+          <i class="fab fa-facebook-square  mt-1"></i>
+          <h5 class="card-title pt-2">Follow on facebock</h5>
+          <button class="btn btn-danger mt-2" type="login" style="width: 130px;"><a class="text-light" href="#">link</a></button>
+        </div>
+      </div>
+    
+      <div class="card text-light carddd  mt-3" style="width: 18rem; height: 150px;">
+        <div class="card-body">
+          <i class="fas fa-map-marked-alt  mt-1"></i>
+          <h5 class="card-title pt-2">Our Location</h5>
+          <button class="btn btn-danger mt-2" type="login" style="width: 100px;"><a class="text-light" href="#">link</a></button>
+    
+        
+    
+        </div>
+      </div>
+    
+      <div class="card text-light carddd  mt-3 " style="width: 18rem; height: 150px;">
+        <div class="card-body">
+          <i class="fas fa-map-marked-alt  mt-1"></i>
+          <h5 class="card-title pt-2">Client Services</h5>
+          <button class="btn btn-danger mt-2" type="login" style="width: 100px;"><a class="text-light" href="#">link</a></button>
+        </div>
+      </div>
+      <div class="card text-light carddd mt-3" style="width: 18rem; height: 150px;">
+        <div class="card-body text-center">
+          <i class="fas fa-phone-square-alt mt-1"></i>
+          <h5 class="card-title pt-2">Contact Us</h5>
+          <button type="login" class="btn btn-danger mt-2" style="width: 100px;"><a class="text-light" href="#">link</a></button>
+        </div>
+      </div>
+    </div>
+  <!-- end join  -->
+  <footer class="foot pt-5 bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-4 text-center mb-5">
+          <img src="image/logo.jpg" alt="" width="70px">
+          <p class="pt-2 text-light">Dessert Restrant</p>
+          <a href="#" class="mb-2 d-block"><img src="image/footer-1.png" alt=""></a>
+          <a href="#" class=""><img src="image/footer-2.png" alt=""></a>
+        </div>
+        <div class="foo col-sm-6 col-md-4 col-lg-4 text-center mb-5">
+          <h3 class="text-primary pb-3">Login By</h3>
+          <a href="#" class=" pb-2 d-block" style="text-decoration: none;font-size: 18px;">Facebock</a>
+          <a href="#" class=" pb-2 d-block" style="text-decoration: none;font-size: 18px;">Instagram</a>
+          <a href="#" class=" pb-2 d-block" style="text-decoration: none;font-size: 18px;">Twitter</a>
+          <a href="#" class=" pb-2 d-block" style="text-decoration: none;font-size: 18px;">Youtube</a>
+          
+        </div>
+        <div class=" col-sm-6 col-md-4 col-lg-4 text-center mb-5">
+          <h3 class="pb-3 text-primary">Contact</h3>
+          <div class="text-light">
+            <i class="far fa-envelope "></i>
+            <span>info&example.com</span>
+          </div>
+          <div class="text-light pt-3" >
+            <i class="fas fa-phone-alt "></i>
+            <span>(+1) 000 000 000</span>
+          </div>
+          <div class="text-light pt-3" >
+            <i class="fas fa-map-marker-alt mr-3"></i>
+            <span>Lorem ipsum dolor sit</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr style="background-color: rgb(70, 70, 70);">
+    <span class="text-center d-block text-light pb-3">Copyright &copy; 2023 Atef Mohy , Dessert Restaurant. All rights</span>
+  </footer>
+  <!-- end section  -->
+  <script src="js/all.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
